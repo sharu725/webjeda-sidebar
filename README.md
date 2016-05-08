@@ -9,15 +9,11 @@ Fork the repository from **master** branch and then create a **gh-pages** branch
 ## Customization
 The theme provides a nice siebar that can be toggled using a menu button. It can be customized by changing colors in the **_config.yml** file.
 
-<code>
-.
-.
-#color scheme
-sidebar-color: '#3A539B'       
-accent-color: '#3A539B' 
-.
-.
-</code>
+
+      #color scheme
+      sidebar-color: '#3A539B'       
+      accent-color: '#3A539B' 
+
 
 ![webjeda sidebar theme](/images/webjeda-sidebar-theme-screenshot-2.jpg)
 
