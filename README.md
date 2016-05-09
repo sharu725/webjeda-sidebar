@@ -3,8 +3,30 @@ Webjeda sidbar theme is based on Simple Sidebar theme by [Start Bootstrap](http:
 
 ![webjeda sidebar theme](/images/webjeda-sidebar-theme-screenshot-1.jpg)
 
-## Installation
-Fork the repository from **master** branch and then create a **gh-pages** branch. That should do it. You can also download the files for local development.
+# Installation
+Fork the ``master`` branch and delete ``gh-pages`` branch. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using master branch as the source.
+
+## How to delete old ``gh-pages`` branch?
+After forking the repository, click on **branches**.
+
+![delete gh-pages branch](/images/delete-github-branch.png)
+
+Delete ``gh-pages`` branch.
+![delete gh-pages branch](/images/delete-github-branch-2.png)
+
+You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
+
+![create gh-pages branch](/images/create-gh-pages-branch.jpg)
+
+Now, go to settings and check the **Github Pages** section. You should see a URl where the blog is hosted.
+
+This process will host the theme as a **Project Page**. You can also download the files for local development. 
+
+Default theme will look like this
+
+![webjeda sidebar theme](/images/webjeda-sidebar-theme-screenshot-1.jpg)
+
+
 
 ## Customization
 The theme provides a nice siebar that can be toggled using a menu button. It can be customized by changing colors in the **_config.yml** file.
