@@ -608,10 +608,12 @@ ul.contact-ul {
     background-color: $accent-color;
     padding: 5px 15px;
     color: #eee;
+    opacity: 0.8;
 }
 
 #submit:hover {
-    box-shadow: 0px 0px 5px #aaa;
+    opacity: 1;
+    cursor: pointer;
 }
 
 
