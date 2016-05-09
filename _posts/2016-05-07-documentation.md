@@ -7,9 +7,11 @@ title: Documentation
 {:toc}
 
 # Installation
-Fork the ``master`` branch and create a ``gh-pages`` branch. This process will host this theme as a **Project Page**. You can also download the files for local development. Default theme will look like this
+Fork the ``master`` branch and create a ``gh-pages`` branch. This process will host this theme as a **Project Page**. You can also download the files for local development. 
 
-![webjeda sidebar theme](/images/webjeda-sidebar-theme-screenshot-1.jpg)
+Default theme will look like this
+
+![webjeda sidebar theme]({{site.baseurl}}/images/webjeda-sidebar-theme-screenshot-1.jpg)
 
 
 # Customization
@@ -17,17 +19,13 @@ Fork the ``master`` branch and create a ``gh-pages`` branch. This process will h
 ## Theme
 The theme provides a nice siebar that can be toggled using a menu button. It can be customized by changing colors in the **_config.yml** file.
 
-{% highlight yaml %}
-.
-.
+{% highlight yml %}
 #color scheme
 sidebar-color: '#3A539B'       
 accent-color: '#3A539B' 
-.
-.
 {% endhighlight %}
 
-![webjeda sidebar theme](/images/webjeda-sidebar-theme-screenshot-2.jpg)
+![webjeda sidebar theme]({{site.baseurl}}/images/webjeda-sidebar-theme-screenshot-2.jpg)
 
 
 You may have to sign up for google custom search engine and use the ```google-custom-search-cx``` code inside **_config.yml** file.
@@ -35,14 +33,27 @@ You may have to sign up for google custom search engine and use the ```google-cu
 There are other things you may have to change
 
 ## Google analytics
+Change the analytics ID in the **_config.yml** file. If you leave it blank, analytics will not run the code on any page.
 
 ## Disqus short-name
+Sign up for disqus, get the shortname and add it in the **_config.yml** file. If you leave it blank, disqus will not run on any page.
 
 ## Social media links
+These links are basically designed for footer. which I'm yet to design(under construction).
 
 ## Google custom search
+Google custom search is the one I prefered over others because of many reasons.
 
-You may have to sign up for some of the services. If you do not use analytics or disqus, the code does not show up on your blog!
+1. It is free.
+    
+2. Provides accurate results.
+    
+3. No burden on hosting server.
+    
+4. Searching from multiple website of yours is possible.
+    
+5. Google tracks the queries which can be helpful to optimize your blog.
+
 
 
 # Development

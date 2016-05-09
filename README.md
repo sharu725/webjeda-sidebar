@@ -1,5 +1,5 @@
 # WebJeda Sidebar Theme
-Webjeda sidbar theme is based on Simple Sidebar theme by [Start Bootstrap](http://startbootstrap.com/). It is optimized to be used on Jekyll. Check it out here [http://webjeda.com/webjeda-sidebar/](http://webjeda.com/webjeda-sidebar/) 
+Webjeda sidbar theme is based on Simple Sidebar theme by [Start Bootstrap](http://startbootstrap.com/). It is optimized to be used on Jekyll. 
 
 ![webjeda sidebar theme](/images/webjeda-sidebar-theme-screenshot-1.jpg)
 

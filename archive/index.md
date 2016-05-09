@@ -7,7 +7,7 @@ adallow: 0
 ---
 
 <section id="archive">
-  <h2><i class="fa fa-leanpub fa-2x"></i> Articles from this year</h2>
+<h2>Articles from this year</h2>
 {% for post in site.posts %}
   {% unless post.next %}
 
@@ -22,7 +22,7 @@ adallow: 0
   <ul class="past">
   {% endif %}
   {% endunless %}
- <li class="arch-list"><a href="{{ post.url }}">{{ post.title }}</a>&nbsp;<time>{{ post.date | date:"%d %b" }}</time></li>
+ <li class="arch-list"><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>&nbsp;<time>{{ post.date | date:"%d %b" }}</time></li>
 {% endfor %}
   </ul>
 </section>

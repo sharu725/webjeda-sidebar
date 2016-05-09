@@ -1,13 +1,13 @@
 
 title: WebJeda | A modern web development blog
 description: "WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions. Contact us for modern, fast and responsive websites"
-url: http://blog.webjeda.com/webjeda-sidebar/
+url: "http://sharu725.github.io"
 author: sharath dt
 
 
 author-image: sharathdt.jpg
 
-baseurl:  # the subpath of your site, e.g. /blog
+baseurl: "/webjeda-sidebar"  # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
@@ -43,4 +43,4 @@ sass:
     
 gems: [jekyll-paginate]
 
-author-image: /img/sharathdt.jpg
+author-image: /webjeda-sidebar/img/sharathdt.jpg
