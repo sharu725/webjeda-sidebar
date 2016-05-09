@@ -12,6 +12,7 @@ html {
 body {
   margin: 0;
   border-top: 3px solid $sidebar-color;
+  overflow-x: hidden;
 }
 
 p, ul, ol {
@@ -658,12 +659,12 @@ ul.contact-ul {
         max-width: 100%;
         }
         .page-heading {
-        margin: 0 0 0.25em 0;
+        margin: 0 0 1em 0;
         font-size: 2em;
         }
         h2#post-index{
-        font-size: 1em;
-        margin: 0;
+        font-size: 1.3em;
+        margin: 0 0 1em 0;
         }
         .post-list {
         padding: 0;
