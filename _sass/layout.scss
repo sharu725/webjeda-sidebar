@@ -442,30 +442,6 @@ img {
 }
 
 
-//media query start
-
-@media (max-width: 900px) {
-    
-        #author-div {
-            padding: 20px 0 0 0;
-            margin-top: 2em;
-            border-top:1px solid #aaa;
-        }
-        
-    img {
-    max-width: 100%;
-}
-
-}
-
-@media (max-width: 700px) {
-        .page-content{
-        max-width: 100%;
-        }
-}
-
-//media query end
-
 .post-list {
     list-style: none;
 }
@@ -521,6 +497,11 @@ a.share-button {
     border-radius: 4px;
     opacity: 0.9
 }
+.share-button {
+    margin-bottom: 0.625em;
+    display: inline-block;
+
+}
 
 a.share-button:hover {
     opacity: 1;
@@ -536,6 +517,10 @@ a.share-button:hover {
     font-weight: 700;
     font-size: 3em;
     color: $accent-color;
+}
+
+#archive h2{
+    font-size: 1.5em;
 }
 
 //sign up form in about page start
@@ -651,3 +636,49 @@ ul.contact-ul {
     list-style: decimal;
     display: inline-block;
 }
+
+//media query start
+
+@media (max-width: 900px) {
+    
+        #author-div {
+            padding: 20px 0 0 0;
+            margin-top: 2em;
+            border-top:1px solid #aaa;
+        }
+        
+    img {
+    max-width: 100%;
+}
+
+}
+
+@media (max-width: 700px) {
+        .page-content{
+        max-width: 100%;
+        }
+        .page-heading {
+        margin: 0 0 0.25em 0;
+        font-size: 2em;
+        }
+        h2#post-index{
+        font-size: 1em;
+        margin: 0;
+        }
+        .post-list {
+        padding: 0;
+        }
+        span.post-meta {
+        font-size: 0.6em;
+        }
+        .post-title{
+        font-size: 2em;
+        }
+        p,ul,ol {
+        font-size: 1em;
+        line-height: 1.5;
+        }
+}
+
+//media query end
+
