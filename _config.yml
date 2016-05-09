@@ -7,7 +7,7 @@ author: sharath dt
 
 author-image: sharathdt.jpg
 
-baseurl: "/webjeda-sidebar"  # the subpath of your site, e.g. /blog
+baseurl: ""  # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
