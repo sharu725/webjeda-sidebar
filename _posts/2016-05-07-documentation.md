@@ -7,7 +7,23 @@ title: Documentation
 {:toc}
 
 # Installation
-Fork the ``master`` branch and create a ``gh-pages`` branch. This process will host this theme as a **Project Page**. You can also download the files for local development. 
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using master branch as the source and create a fresh ``gh-pages`` branch.
+
+## How to delete old ``gh-pages`` branch?
+After forking the repository, click on **branches**.
+
+![delete gh-pages branch]({{site.baseurl}}/images/delete-github-branch.png)
+
+Delete ``gh-pages`` branch.
+![delete gh-pages branch]({{site.baseurl}}/images/delete-github-branch-2.png)
+
+You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
+
+![create gh-pages branch]({{site.baseurl}}/images/create-gh-pages-branch.jpg)
+
+Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
+
+This process will host the theme as a **Project Page**. You can also download the files for local development. 
 
 Default theme will look like this
 
