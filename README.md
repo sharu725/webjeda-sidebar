@@ -18,7 +18,7 @@ You have to create a new ``gh-pages`` branch using the master branch. Go back to
 
 ![create gh-pages branch](/images/create-gh-pages-branch.JPG)
 
-Now, go to settings and check the **Github Pages** section. You should see a URl where the blog is hosted.
+Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
 
 This process will host the theme as a **Project Page**. You can also download the files for local development. 
 
