@@ -4,25 +4,23 @@
     transition: all 0.5s;
 }
 html {
-  font-family: sans-serif;
+  font-family: $font-family; //goto css>main.css to see which font is set for $font-family variable
     text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
   margin: 0;
-  border-top: 3px solid $sidebar-color;
   overflow-x: hidden;
 }
 
 p, ul, ol {
-    font-family: 'PT Sans', sans-serif;
-  /*   font-family: 'Ubuntu', sans-serif; */
+    font-family: $font-family;
     font-weight: 300;
     font-size: 19px;
     line-height: 1.8;
     margin: 1.2em 0;
-    color: #000;
+    color: #606c71;
     background-color: transparent;
 }
 
@@ -128,7 +126,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $font-family;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -176,9 +174,9 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: $font-family;
   font-weight: bold;
-  line-height: 1.1;
+  line-height: 1.6;
   color: inherit;
 }
 h1 small,
@@ -217,6 +215,7 @@ h3,
 .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
 }
 h1 small,
 .h1 small,
@@ -339,7 +338,7 @@ samp {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
+  color: $accent-color;
   background-color: #f9f2f4;
   border-radius: 4px;
 }
@@ -453,6 +452,7 @@ a.post-link {
 h2#post-index{ 
     margin: 10px;
     display: inline-block;
+    border: none;
 }
 
 .post-link:hover {
@@ -645,7 +645,7 @@ ul.contact-ul {
         #author-div {
             padding: 20px 0 0 0;
             margin-top: 2em;
-            border-top:1px solid #aaa;
+            border-top:1px solid #eee;
         }
         
     img {

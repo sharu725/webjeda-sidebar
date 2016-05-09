@@ -33,6 +33,7 @@
     width: 100%;
     position: absolute;
     padding: 15px;
+    border-top: 3px solid $accent-color;
 }
 
 #wrapper.toggled #page-content-wrapper {
