@@ -7,7 +7,7 @@ title: Documentation
 {:toc}
 
 # Installation
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using master branch as the source and create a fresh ``gh-pages`` branch.
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
 ## How to delete old ``gh-pages`` branch?
 After forking the repository, click on **branches**.
@@ -33,7 +33,7 @@ Default theme will look like this
 # Customization
 
 ## Theme
-The theme provides a nice siebar that can be toggled using a menu button. It can be customized by changing colors in the **_config.yml** file.
+The theme provides a nice sidebar that can be toggled using a menu button. It can be customized by changing colors in the **_config.yml** file.
 
 {% highlight yml %}
 #color scheme
@@ -52,13 +52,13 @@ There are other things you may have to change
 Change the analytics ID in the **_config.yml** file. If you leave it blank, analytics will not run the code on any page.
 
 ## Disqus short-name
-Sign up for disqus, get the shortname and add it in the **_config.yml** file. If you leave it blank, disqus will not run on any page.
+Sign up for Disqus, get the shortname and add it in the **_config.yml** file. If you leave it blank, disqus will not run on any page.
 
 ## Social media links
-These links are basically designed for footer. which I'm yet to design(under construction).
+These links are basically designed for the footer. which I'm yet to design(under construction).
 
 ## Google custom search
-Google custom search is the one I prefered over others because of many reasons.
+Google custom search is the one I prefer over others because of many reasons.
 
 1. It is free.
     
@@ -66,14 +66,14 @@ Google custom search is the one I prefered over others because of many reasons.
     
 3. No burden on hosting server.
     
-4. Searching from multiple website of yours is possible.
+4. Searching from multiple websites of yours is possible.
     
 5. Google tracks the queries which can be helpful to optimize your blog.
 
 
 
 # Development
-Make changes to the **master** branch create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
+Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
 
 
 # License
