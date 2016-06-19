@@ -28,7 +28,7 @@ email: mailto:hello@webjeda.com
 feedburner-subscribe: https://feedburner.google.com/fb/a/mailverify?uri=webjedablog&amp;loc=en_US
 
 #Other
-analytics:
+analytics: UA-71358787-1
 disqus-shortname: webjeda-sample    #Disqus comments
 google-custom-search-cx: '017575011755499056211:vwrwldvgq6s'        #Create Custom Search Engine(CSE) with google and find this ID in the code they provide.
 
