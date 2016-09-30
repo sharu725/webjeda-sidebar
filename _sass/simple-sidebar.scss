@@ -75,13 +75,14 @@
 }
 
 .sidebar-nav > .sidebar-brand {
-    height: 65px;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 60px;
+    font-family: sans-serif;
+    text-transform: uppercase;
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999999;
+    color: #eee;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {

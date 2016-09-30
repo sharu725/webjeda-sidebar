@@ -1,7 +1,7 @@
 * {
  
     transition-timing-function: ease;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 html {
   font-family: $font-family; //goto css>main.css to see which font is set for $font-family variable
@@ -645,6 +645,19 @@ ul.contact-ul {
     display: inline-block;
 }
 
+
+
+.author-bar {
+    position: fixed;
+    right:0;
+    
+}
+
+.menu-icon {
+    width: 25px;
+    position: fixed;
+}
+
 //media query start
 
 @media (max-width: 900px) {
@@ -686,7 +699,16 @@ ul.contact-ul {
         font-size: 1em;
         line-height: 1.5;
         }
+       .author-bar{
+         position: static; 
+        }
+    .menu-icon{
+        width: 20px;
+    }
 }
 
 //media query end
+
+
+
 
